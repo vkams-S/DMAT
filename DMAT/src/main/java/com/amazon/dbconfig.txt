@@ -1,0 +1,3 @@
+jdbc:sqlserver://localhost:61643;databaseName=DMAT;trustServerCertificate=true;
+vkams
+Mkv#1023

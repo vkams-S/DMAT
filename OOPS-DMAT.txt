@@ -1,0 +1,22 @@
+Share
+	id, companyName, price, lastUpdatedOn
+	>> Where, we have to manually add some records, in the table so that user can see these shares and do transactions for them
+
+User
+	id, userName, accountNumber, password, accountBalance, lastUpdatedOn
+	
+UserShares
+	id, userId, shareId, companyName, shareCount
+	
+Transaction
+	id, shareId, shareCount, pricePerShare, transactedOn, transactionCharges, sttCharges, type
+	type -> 1 : buy
+	type -> 2 : sell
+
+	
+Considering below Relationships:
+	1 User has 1 account
+	1 User can have many Shares
+	1 User can do many Transactions	
+	
+	
